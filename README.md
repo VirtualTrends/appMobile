@@ -7,6 +7,39 @@ La aplicación les ofrece la posibilidad  de obtener una sesión de 30 minutos p
 Es requisito tener una cuenta y los datos verificados, así como abonar previamente el costo del servicio. De esta forma únicamente es garantizada y confirmada la reserva del turno
 
 
+--------------------------------------------------------------------------
+# VIDEO FINAL
+[![VIDEO FINAL](https://img.youtube.com/vi/oSj62rfC_34/0.jpg)](https://www.youtube.com/watch?v=oSj62rfC_34?si=70q94LPoRuQfdzHr)
+
+
+
+--------------------------------------------------------------------------
+
+# VIDEO FINAL MODULO EXTRA
+[![VIDEO FINAL desarrollo EXTRA Módulo ADMIN](https://img.youtube.com/vi/u3KOHIMxTFg/0.jpg)](https://www.youtube.com/watch?v=u3KOHIMxTFg?si=644irla2xksrghBp)
+
+
+--------------------------------------------------------------------------
+
+
+VIDEO
+
+https://github.com/Gaghyta/VIRTUAL-TRENDS-Proyecto-ISPC-Mobile/assets/63260839/5293ab35-2967-4fe9-8d81-cfafd595c43d
+
+
+VIDEO PUBLICADO
+
+https://youtu.be/ycP2cn0UznI
+
+ARCHIVO ZIP LINK
+https://drive.google.com/file/d/1o1loR5thwYepRquJOE0wpxs1kdLZAig0/view?usp=sharing
+
+FIGMA LINK
+https://www.figma.com/file/WD7doXf6ZDKkadCCuAmOzs/REFERENCIAS-SISTEMA-VIRTUALTRENDS?type=design&node-id=826%3A3090&mode=design&t=0TaT7K052C6XWkoj-1
+
+
+
+
 ![HOME-APP](https://github.com/Gaghyta/VIRTUAL-TRENDS-Proyecto-ISPC-Mobile/assets/63260839/b071ecdf-a3a9-485c-bb76-b51476aca8b7)
 
 
