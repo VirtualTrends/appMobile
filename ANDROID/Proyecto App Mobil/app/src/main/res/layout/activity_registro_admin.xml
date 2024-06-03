@@ -33,45 +33,6 @@
         app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints,NotSibling" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="78dp"
-        android:layout_marginEnd="78dp"
-        android:text="d.n.i."
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_admin_regNombre" />
-
-    <EditText
-        android:id="@+id/et_admin_regDireccion"
-        android:layout_width="234dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="93dp"
-        android:layout_marginEnd="93dp"
-        android:background="#F9F9F9"
-        android:ems="10"
-        android:hint="Ingrese Direccion"
-        android:inputType="text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="78dp"
-        android:layout_marginEnd="78dp"
-        android:text="direccion"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_admin_regDni" />
-
 
     <TextView
         android:id="@+id/txtTitle"
@@ -90,12 +51,35 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_admin_regEnviar" />
+
+    <EditText
+        android:id="@+id/et_admin_regEmail"
+        android:layout_width="234dp"
+        android:layout_height="38dp"
+        android:background="#F9F9F9"
+        android:ems="10"
+        android:hint="Ingrese Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="78dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="78dp"
         android:fontFamily="@font/archivo_regular"
         android:text="nombre completo"
@@ -108,7 +92,7 @@
     <EditText
         android:id="@+id/et_admin_regNombre"
         android:layout_width="234dp"
-        android:layout_height="41dp"
+        android:layout_height="38dp"
         android:layout_marginStart="93dp"
         android:layout_marginEnd="93dp"
         android:background="#F9F9F9"
@@ -116,47 +100,63 @@
         android:hint="Ingrese Nombre"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/logo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bt_admin_regEnviar" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/bt_admin_regEnviar"
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="0dp"
-        android:layout_height="48dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="78dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="83dp"
-        android:background="#D3FDFBFB"
-        android:fontFamily="@font/archivo_regular"
-        android:onClick="launchSelectorActivity"
-        android:text="ENVIAR"
-        android:visibility="visible"
+        android:layout_marginEnd="78dp"
+        android:text="d.n.i."
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_admin_regCodigo" />
+        app:layout_constraintTop_toBottomOf="@+id/et_admin_regNombre" />
 
     <EditText
         android:id="@+id/et_admin_regDni"
         android:layout_width="234dp"
-        android:layout_height="41dp"
+        android:layout_height="38dp"
         android:background="#F9F9F9"
         android:ems="10"
         android:hint="Ingrese D.N.I"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="78dp"
+        android:text="direccion"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_admin_regDni" />
+
+    <EditText
+        android:id="@+id/et_admin_regDireccion"
+        android:layout_width="234dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginEnd="93dp"
+        android:background="#F9F9F9"
+        android:ems="10"
+        android:hint="Ingrese Direccion"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
         android:id="@+id/textView7"
@@ -167,20 +167,57 @@
         android:text="email"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_admin_regDireccion" />
 
     <EditText
-        android:id="@+id/et_admin_regEmail"
+        android:id="@+id/et_admin_regPassword"
         android:layout_width="234dp"
-        android:layout_height="41dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginEnd="93dp"
         android:background="#F9F9F9"
         android:ems="10"
-        android:hint="Ingrese Email"
-        android:inputType="textEmailAddress"
+        android:hint="Ingrese Contraseña"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <EditText
+        android:id="@+id/et_admin_regCodigo"
+        android:layout_width="234dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginEnd="93dp"
+        android:background="#F9F9F9"
+        android:ems="10"
+        android:hint="Ingrese Codigo"
+
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/codigo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_admin_regEnviar"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="83dp"
+        android:background="#D3FDFBFB"
+        android:fontFamily="@font/archivo_regular"
+        android:onClick="launchSelectorActivity"
+        android:text="ENVIAR"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_admin_regCodigo" />
 
     <TextView
         android:id="@+id/textView10"
@@ -194,20 +231,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_admin_regEmail" />
 
-    <EditText
-        android:id="@+id/et_admin_regPassword"
-        android:layout_width="234dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="93dp"
-        android:layout_marginEnd="93dp"
-        android:background="#F9F9F9"
-        android:ems="10"
-        android:hint="Ingrese Contraseña"
-        android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
-
     <TextView
         android:id="@+id/codigo"
         android:layout_width="0dp"
@@ -220,23 +243,9 @@
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_admin_regPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/et_admin_regPassword" /><![CDATA[
     " />
 
-    <EditText
-        android:id="@+id/et_admin_regCodigo"
-        android:layout_width="234dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="93dp"
-        android:layout_marginEnd="93dp"
-        android:background="#F9F9F9"
-        android:ems="10"
-        android:hint="Ingrese Codigo"
 
-        android:inputType="text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/codigo" />
-
-
+]]>
 </androidx.constraintlayout.widget.ConstraintLayout>
