@@ -64,14 +64,14 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/appCompatButton2"
         android:layout_width="173dp"
-        android:layout_height="65dp"
+        android:layout_height="50dp"
         android:layout_marginTop="4dp"
         android:backgroundTint="#B3191B1D"
         android:fontFamily="@font/josefin_sans"
         android:text="MODIFICAR"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="18dp"
+        android:textSize="16dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -81,7 +81,7 @@
         android:id="@+id/txt_admin_atras"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:clickable="true"
         android:fontFamily="@font/josefin_sans"
         android:text="Atras"
@@ -96,14 +96,14 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/appCompatButton3"
-        android:layout_width="56dp"
-        android:layout_height="63dp"
+        android:layout_width="49dp"
+        android:layout_height="45dp"
         android:backgroundTint="#B3191B1D"
         android:fontFamily="@font/josefin_sans"
         android:text="+"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="34sp"
+        android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -114,14 +114,14 @@
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="56dp"
-        android:layout_height="63dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:backgroundTint="#B3191B1D"
         android:fontFamily="@font/josefin_sans"
         android:text="-"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="34sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -133,13 +133,12 @@
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="125dp"
-        android:layout_height="143dp"
-        android:layout_marginTop="64dp"
+        android:layout_height="130dp"
         android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appCompatButton2" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
