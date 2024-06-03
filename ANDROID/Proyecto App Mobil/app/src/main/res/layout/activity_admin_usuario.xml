@@ -96,8 +96,8 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/appCompatButton3"
-        android:layout_width="49dp"
-        android:layout_height="45dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:backgroundTint="#B3191B1D"
         android:fontFamily="@font/josefin_sans"
         android:text="+"
