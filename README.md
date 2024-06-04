@@ -1,3 +1,14 @@
+# VIRTUAL-TRENDS-Proyecto-2024
+
+Este repositorio forma parte de la actualización del proyecto app mobile de VIRTUAL TRANDS 2023. Para encontrar información integral respecto del proyecto 2024 te pedimos ingresar a nuestro repositorio destinado a la documentación que se encuentra en: 
+
+https://github.com/VirtualTrends/VirtualTrends-2024
+
+Acá podrás encontrar el proyecto integral 
+
+----------------------------------------------------------------------------------------------
+PROYECTO PREVIO
+
 # VIRTUAL-TRENDS-Proyecto-ISPC-Mobile
 
 El producto consiste en una aplicación para teléfonos móviles que complementa el servicio de e-commerce que ofrece VIRTUAL TRENDS a través de su sitio web  donde comercializa prendas de indumentaria masculina, femenina y unisex, a través de imágenes 3D realizadas con tecnología de vanguardia a través del software CLO 3D. El sitio web ofrece actualmente la carga del talle personalizado (medidas corporales) a través de un formulario que el usuario debe completar. Sin embargo, muchos usarios no sabían tomarse sus  propias medidas y requerían asistencia de terceros. VIRTUAL TRENDS decidió tomar estas consideraciones y ampliar su servicio y funcionalidad mediante una aplicación móvil que permite gestionar turnos.
@@ -11,12 +22,6 @@ Es requisito tener una cuenta y los datos verificados, así como abonar previame
 # VIDEO FINAL
 [![VIDEO FINAL](https://img.youtube.com/vi/oSj62rfC_34/0.jpg)](https://www.youtube.com/watch?v=oSj62rfC_34?si=70q94LPoRuQfdzHr)
 
-
-
---------------------------------------------------------------------------
-
-# VIDEO FINAL MODULO EXTRA
-[![VIDEO FINAL desarrollo EXTRA Módulo ADMIN](https://img.youtube.com/vi/u3KOHIMxTFg/0.jpg)](https://www.youtube.com/watch?v=u3KOHIMxTFg?si=644irla2xksrghBp)
 
 
 --------------------------------------------------------------------------
@@ -57,9 +62,9 @@ https://www.figma.com/file/WD7doXf6ZDKkadCCuAmOzs/REFERENCIAS-SISTEMA-VIRTUALTRE
 Trabajamos haciendo una rama por developer, y después una general por sprint (Ej: dev-Sprint0) para que de esa general del sprint se le pegue al main cuando este ok y se hayan subido todos los aportes del grupo. 
 Si algún/os developer/s quieren o necesitan hacer una rama feature, o una rama de fix, está habilitados a hacerla (Incluso para tener ramas entre dos alumnos).
 
+----------------------------------------------------------------------------------------------
 
-
-# Proyecto previo
+# Proyecto previo 2023
 
 ### Presentación final 12:55
 [![Video Presentación](https://img.youtube.com/vi/NvvD0ANatUU/0.jpg)](https://www.youtube.com/watch?v=NvvD0ANatUU)
