@@ -34,7 +34,7 @@ public class EditarPerfilActivity extends AppCompatActivity {
     private EditText direccion;
     private EditText correo;
     private EditText password;
-    private Button enviar;
+    private Button enviar, verTurno;
     private Button eliminar;
 
     @Override
@@ -50,10 +50,7 @@ public class EditarPerfilActivity extends AppCompatActivity {
             userId = sessionManager.getSessionDetails("key_session_id");
             loadUserData(userId);
         }
-
-
-
-
+        verTurno = findViewById(R.id.btn_verturnos);
         // editar datos usuario
         enviar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,6 +63,15 @@ public class EditarPerfilActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 deleteUser();
+            }
+        });
+
+        verTurno.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), VerTurnoActivity.class);
+                startActivity(i);
+                finish();
             }
         });
 

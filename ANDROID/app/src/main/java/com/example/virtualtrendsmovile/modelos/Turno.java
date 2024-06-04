@@ -14,6 +14,10 @@ public class Turno {
         this.idUsuario = idUsuario;
     }
 
+    public Turno() {
+
+    }
+
     public String getIdTurno() {
         return idTurno;
     }
