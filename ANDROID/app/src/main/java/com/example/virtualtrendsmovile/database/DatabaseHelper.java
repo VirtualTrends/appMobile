@@ -191,5 +191,21 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.insert(TABLE_TURNERO, null, contentValues);
         return true;
     }
+    public Turno selectTurno(String id){
+        SQLiteDatabase db=this.getReadableDatabase();
+        Cursor cursor=db.rawQuery("select * from Calendario where idUsuario=?",new String[]{id});
+        if(cursor.getCount()>0){
+            Turno u = new Turno();
+            cursor.moveToFirst();
+            u.setIdTurno(cursor.getString(0));
+            u.setFecha(cursor.getString(1));
+            u.setFranjaHoraria(cursor.getString(2));
+            u.setComprobante(cursor.getString(3));
+            u.setIdUsuario(cursor.getString(4));
+            return u;
+        }else{
+            return null;
+        }
+    }
 
 }
