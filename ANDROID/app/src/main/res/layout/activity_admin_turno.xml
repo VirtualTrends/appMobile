@@ -51,8 +51,8 @@
 
     <TextView
         android:id="@+id/textView19"
-        android:layout_width="271dp"
-        android:layout_height="211dp"
+        android:layout_width="273dp"
+        android:layout_height="163dp"
         android:layout_marginTop="16dp"
         android:background="#FFFFFF"
         android:textColor="#CC191B1D"
@@ -65,7 +65,7 @@
         android:id="@+id/appCompatButton2"
         android:layout_width="173dp"
         android:layout_height="50dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="10dp"
         android:backgroundTint="#B3191B1D"
         android:fontFamily="@font/josefin_sans"
         android:text="MODIFICAR"
@@ -81,6 +81,7 @@
         android:id="@+id/appCompatButton4"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="#B3191B1D"
         android:fontFamily="@font/josefin_sans"
         android:text="+"
@@ -99,6 +100,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="#B3191B1D"
         android:fontFamily="@font/josefin_sans"
         android:text="-"
@@ -135,7 +137,7 @@
         android:id="@+id/txt_admin_logout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="22dp"
         android:clickable="true"
         android:fontFamily="@font/josefin_sans"
         android:text="Cerrar Sesión"
@@ -150,13 +152,13 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="125dp"
+        android:layout_width="105dp"
         android:layout_height="143dp"
+        android:layout_marginBottom="40dp"
         android:src="@drawable/logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_admin_logout"
-        app:layout_constraintVertical_bias="0.163" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_admin_logout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
