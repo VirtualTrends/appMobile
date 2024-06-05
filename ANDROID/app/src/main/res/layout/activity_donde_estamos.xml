@@ -74,15 +74,12 @@
         android:id="@+id/imageView3"
         android:layout_width="119dp"
         android:layout_height="137dp"
-        android:layout_marginTop="515dp"
-        android:layout_marginBottom="54dp"
+        android:layout_marginBottom="10dp"
         android:src="@drawable/logo"
         android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/btnNavSelector"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/barraSup"
-        app:layout_constraintVertical_bias="0.51" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/mapaUbi"

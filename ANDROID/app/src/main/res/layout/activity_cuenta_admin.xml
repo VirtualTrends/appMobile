@@ -12,12 +12,11 @@
         android:layout_width="300dp"
         android:layout_height="2dp"
         android:layout_above="@id/textView"
+        android:layout_marginTop="7dp"
         android:background="#F7F7F2"
-        app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.110000014"
         tools:ignore="MissingConstraints,NotSibling" />
 
     <View
@@ -25,113 +24,107 @@
         android:layout_width="300dp"
         android:layout_height="2dp"
         android:layout_above="@id/textView"
+        android:layout_marginTop="56dp"
         android:background="#F7F7F2"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.9"
         tools:ignore="MissingConstraints,NotSibling" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="296dp"
-        android:layout_height="33dp"
+        android:layout_width="294dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="7dp"
         android:fontFamily="@font/josefin_sans"
-        android:text="CUENTA ADMINISTRACIÓN"
+        android:text="ADMINISTRACIÓN"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.128" />
+        app:layout_constraintTop_toBottomOf="@+id/lineaSuperior" />
+
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="155dp"
-        android:layout_height="39dp"
+        android:layout_width="50dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="8dp"
         android:fontFamily="@font/josefin_sans"
-        android:text="email"
+        android:text="Email"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.193"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.258" />
+        app:layout_constraintTop_toBottomOf="@+id/lineaInferior" />
 
     <EditText
         android:id="@+id/et_admin_email"
-        android:layout_width="298dp"
-        android:layout_height="61dp"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
         android:background="#FFFFFF"
         android:hint="Ingrese Email"
         android:inputType="text|textEmailAddress"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.295" />
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="103dp"
-        android:layout_height="38dp"
+        android:layout_width="83dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="@font/josefin_sans"
-        android:text="contraseña"
+        android:text="Contraseña"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintHorizontal_bias="0.209"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.386" />
+        app:layout_constraintTop_toBottomOf="@+id/et_admin_email" />
 
     <EditText
         android:id="@+id/et_admin_password"
-        android:layout_width="298dp"
-        android:layout_height="61dp"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
         android:background="#FFFFFF"
         android:hint="Ingrese Contraseña"
         android:inputType="text|textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.445" />
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="203dp"
+        android:layout_width="160dp"
         android:layout_height="22dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="4dp"
         android:fontFamily="@font/josefin_sans"
-        android:text="codigo de administrador"
+        android:text="Codigo de administrador"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintHorizontal_bias="0.278"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_admin_password" />
 
     <EditText
         android:id="@+id/et_admin_codigo"
-        android:layout_width="298dp"
-        android:layout_height="61dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
         android:background="#FFFFFF"
         android:hint="Ingrese Codigo Administrador"
         android:inputType="text"
@@ -139,51 +132,50 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
-
     <TextView
         android:id="@+id/txt_admin_logout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="28dp"
+        android:clickable="true"
         android:fontFamily="@font/josefin_sans"
         android:text="¿No tienes una cuenta? Registrate"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="16dp"
         android:textStyle="bold"
-        android:clickable="true"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bt_admin_login" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_admin_login"
-        android:layout_width="298dp"
-        android:layout_height="75dp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
         android:fontFamily="@font/josefin_sans"
         android:text="INICIAR SESIÓN"
         android:textAlignment="center"
         android:textColor="#CC191B1D"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.727" />
+        app:layout_constraintTop_toBottomOf="@+id/et_admin_codigo" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="126dp"
+        android:layout_width="105dp"
         android:layout_height="132dp"
+        android:layout_marginTop="10dp"
         android:src="@drawable/logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.96" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_admin_logout"
+        app:layout_constraintVertical_bias="0.355" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

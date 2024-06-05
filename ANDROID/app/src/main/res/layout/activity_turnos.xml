@@ -84,10 +84,9 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/frameLayout2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.882" />
+        app:layout_constraintVertical_bias="0.926" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/btnNavSelector"
@@ -102,35 +101,32 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="80dp"
-        android:layout_height="116dp"
+        android:layout_width="49dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="@font/josefin_sans"
         android:text="1"
         android:textAlignment="viewEnd"
         android:textSize="90sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.386" />
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        tools:layout_editor_absoluteX="69dp" />
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="175dp"
-        android:layout_height="81dp"
+        android:layout_width="178dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
         android:fontFamily="@font/josefin_sans"
         android:text="INGRESÁ AL TURNERO"
         android:textAlignment="center"
         android:textColor="#B3191B1D"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/siguiente"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.578"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.403" />
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

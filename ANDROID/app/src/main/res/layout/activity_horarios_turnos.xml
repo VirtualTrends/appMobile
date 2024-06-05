@@ -10,7 +10,7 @@ tools:context=".actividades.HorariosTurnosActivity">
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_turno_mañana"
         android:layout_width="283dp"
-        android:layout_height="65dp"
+        android:layout_height="60dp"
         android:layout_marginTop="12dp"
         android:backgroundTint="#575757"
         android:fontFamily="@font/josefin_sans"
@@ -44,7 +44,7 @@ tools:context=".actividades.HorariosTurnosActivity">
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_turno_mediodia"
         android:layout_width="283dp"
-        android:layout_height="65dp"
+        android:layout_height="60dp"
         android:layout_marginTop="12dp"
         android:backgroundTint="#575757"
         android:fontFamily="@font/josefin_sans"
@@ -64,7 +64,7 @@ tools:context=".actividades.HorariosTurnosActivity">
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_turno_noche"
         android:layout_width="283dp"
-        android:layout_height="65dp"
+        android:layout_height="60dp"
         android:backgroundTint="#575757"
         android:fontFamily="@font/josefin_sans"
         android:foregroundTint="#B3191B1D"
@@ -84,7 +84,7 @@ tools:context=".actividades.HorariosTurnosActivity">
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_turno_tarde"
         android:layout_width="283dp"
-        android:layout_height="65dp"
+        android:layout_height="60dp"
         android:layout_marginTop="12dp"
         android:backgroundTint="#575757"
         android:fontFamily="@font/josefin_sans"
@@ -113,8 +113,9 @@ tools:context=".actividades.HorariosTurnosActivity">
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="141dp"
-        android:layout_height="120dp"
+        android:layout_width="105dp"
+        android:layout_height="111dp"
+        android:layout_marginBottom="15dp"
         android:contentDescription="casi_todo"
         app:layout_constraintBottom_toTopOf="@+id/btnNavSelector"
         app:layout_constraintEnd_toEndOf="parent"
