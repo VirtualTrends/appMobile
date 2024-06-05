@@ -94,7 +94,7 @@
             android:id="@+id/txtTitle"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="30dp"
             android:background="#B3749A5B"
             android:fontFamily="@font/josefin_sans"
             android:gravity="center"
@@ -105,7 +105,7 @@
             app:layout_constraintBottom_toTopOf="@+id/indicaciones"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            />
+            app:layout_constraintTop_toBottomOf="@+id/textTurnos" />
 
         <View
             android:id="@+id/lineaInferior5"
@@ -123,10 +123,10 @@
 
         <TextView
             android:id="@+id/textTurnos"
-            android:layout_width="145dp"
-            android:layout_height="32dp"
+            android:layout_width="330dp"
+            android:layout_height="38dp"
             android:fontFamily="@font/josefin_sans"
-            android:text="¡TERMINASTE!"
+            android:text="Tu turno se ha reservado para el día"
             android:textAlignment="center"
             android:textColor="#B3191B1D"
             android:textSize="20sp"

@@ -42,7 +42,7 @@
         android:layout_marginTop="80dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/josefin_sans"
-        android:text="REGISTRO ADMINISTRADOR"
+        android:text="REGISTRO ADMIN"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="23sp"
@@ -53,10 +53,10 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="105dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
         android:src="@drawable/logo"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bt_admin_regEnviar" />
@@ -205,7 +205,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_admin_regEnviar"
         android:layout_width="0dp"
-        android:layout_height="48dp"
+        android:layout_height="50dp"
         android:layout_marginStart="78dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="83dp"
