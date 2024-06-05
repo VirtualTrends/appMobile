@@ -83,8 +83,8 @@
 
     <ImageView
         android:id="@+id/mapaUbi"
-        android:layout_width="313dp"
-        android:layout_height="240dp"
+        android:layout_width="260dp"
+        android:layout_height="203dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="22dp"
         android:layout_marginEnd="30dp"

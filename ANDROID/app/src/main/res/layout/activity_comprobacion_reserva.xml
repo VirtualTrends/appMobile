@@ -14,20 +14,20 @@
         android:background="#B3191B1D"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.982">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/frameLayout4"
-            android:layout_width="420dp"
-            android:layout_height="386dp"
+            android:layout_width="422dp"
+            android:layout_height="426dp"
             android:background="#D2F7F7F2"
             app:layout_constraintBottom_toTopOf="@+id/botonModificar"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"
-            tools:layout_editor_absoluteX="0dp">
+            tools:layout_editor_absoluteX="-1dp">
 
             <TextView
                 android:id="@+id/textView15"
@@ -48,18 +48,17 @@
                 android:id="@+id/textView16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
                 android:fontFamily="@font/josefin_sans"
                 android:text="RESERVÁTULUGAR"
                 android:textAlignment="center"
                 android:textColor="#B3191B1D"
                 android:textSize="22sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toTopOf="@+id/signoExclamación"
+                app:layout_constraintBottom_toTopOf="@+id/parrafo_explicativo"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.497"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.496" />
+                app:layout_constraintHorizontal_bias="0.296"
+                app:layout_constraintStart_toEndOf="@+id/signoExclamación" />
 
             <TextView
                 android:id="@+id/signoExclamación"
@@ -79,16 +78,14 @@
                 android:id="@+id/parrafo_explicativo"
                 android:layout_width="285dp"
                 android:layout_height="81dp"
-                android:layout_marginTop="76dp"
                 android:fontFamily="@font/archivo_regular"
                 android:text="Para completar el proceso deberás cargar tu número de comprobante y aceptar nuestros términos y condiciones"
                 android:textColor="@color/black"
                 android:textColorLink="@color/black"
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.473"
                 app:layout_constraintStart_toEndOf="@+id/signoExclamación"
-                app:layout_constraintTop_toBottomOf="@+id/textView16" />
+                tools:layout_editor_absoluteY="220dp" />
 
             <CheckBox
                 android:id="@+id/checkBox"
@@ -101,15 +98,12 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.635"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/et_turno_comprobante"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintStart_toStartOf="parent" />
 
             <EditText
                 android:id="@+id/et_turno_comprobante"
                 android:layout_width="223dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:background="@color/white"
                 android:ems="10"
                 android:inputType="text"
@@ -136,15 +130,16 @@
             android:id="@+id/botonModificar"
             android:layout_width="283dp"
             android:layout_height="65dp"
-            android:layout_marginBottom="32dp"
             android:backgroundTint="#191B1D"
             android:fontFamily="@font/josefin_sans"
             android:text="MODIFICAR"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/botonParaConfirmarReserva"
-            tools:layout_editor_absoluteX="70dp">
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="446dp">
 
         </androidx.appcompat.widget.AppCompatButton>
 
@@ -152,6 +147,7 @@
             android:id="@+id/botonParaConfirmarReserva"
             android:layout_width="283dp"
             android:layout_height="65dp"
+            android:layout_marginTop="32dp"
             android:layout_marginBottom="32dp"
             android:backgroundTint="#F7F7F2"
             android:fontFamily="@font/josefin_sans"
@@ -162,7 +158,8 @@
             app:layout_constraintBottom_toTopOf="@+id/imageView7"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.534"
-            app:layout_constraintStart_toStartOf="parent">
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/botonModificar">
 
         </androidx.appcompat.widget.AppCompatButton>
 
