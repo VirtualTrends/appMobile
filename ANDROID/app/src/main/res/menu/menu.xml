@@ -16,4 +16,8 @@
         android:title="Inicio"
         android:icon="@drawable/baseline_home_24"
         />
+    <item
+        android:id="@+id/website_virtual_trends"
+        android:icon="@drawable/baseline_shopping_bag_24"
+        android:title="E-commerce" />
 </menu>
