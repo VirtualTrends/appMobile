@@ -5,32 +5,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo"
-    tools:context=".actividades.InicioActivity">
+    tools:context="com.example.virtualtrendsmobile.actividades.InicioActivity">
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/btnNavSelector"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:background="#3B3D40"
+        android:background="#191B1D"
         app:itemIconTint="@drawable/selector"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/menu_selector" />
+        app:menu="@menu/menu_inicio" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <FrameLayout
             android:id="@+id/frameLayout4"
             android:layout_width="412dp"
             android:layout_height="200dp"
-            android:layout_marginBottom="60dp"
+            android:layout_marginBottom="64dp"
             android:background="#CC191B1D"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent">
 
         </FrameLayout>

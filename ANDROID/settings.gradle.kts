@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "virtualtrendsmovile"
+rootProject.name = "virtualtrendsmobile"
 include(":app")
  

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondoblanco"
-    tools:context=".actividades.SelectorActivity">
+    tools:context="com.example.virtualtrendsmobile.actividades.SelectorActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/frameLayout"
@@ -92,25 +92,25 @@
         android:id="@+id/btnNavSelector"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:background="#3B3D40"
+        android:background="#191B1D"
         app:itemIconTint="@drawable/selector"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/menu_selector" />
+        app:menu="@menu/menu_inicio" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="49dp"
         android:layout_height="77dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="4dp"
         android:fontFamily="@font/josefin_sans"
         android:text="1"
         android:textAlignment="viewEnd"
         android:textSize="90sp"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout"
-        tools:layout_editor_absoluteX="69dp" />
+        tools:layout_editor_absoluteX="68dp" />
 
     <TextView
         android:id="@+id/textView12"
@@ -118,7 +118,7 @@
         android:layout_height="58dp"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="5dp"
-        android:fontFamily="@font/josefin_sans"
+        android:fontFamily="@font/archivo_regular"
         android:text="INGRESÁ AL TURNERO"
         android:textAlignment="center"
         android:textColor="#B3191B1D"

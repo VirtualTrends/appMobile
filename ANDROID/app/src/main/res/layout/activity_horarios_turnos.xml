@@ -5,7 +5,7 @@ xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:background="@drawable/fondo"
-tools:context=".actividades.HorariosTurnosActivity">
+tools:context="com.example.virtualtrendsmobile.actividades.HorariosTurnosActivity">
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_turno_mañana"
@@ -101,15 +101,15 @@ tools:context=".actividades.HorariosTurnosActivity">
     </androidx.appcompat.widget.AppCompatButton>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-    android:id="@+id/btnNavSelector"
-    android:layout_width="match_parent"
-    android:layout_height="64dp"
-    android:background="#3B3D40"
-    app:itemIconTint="@drawable/selector"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:menu="@menu/menu_selector" />
+        android:id="@+id/btnNavSelector"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#191B1D"
+        app:itemIconTint="@drawable/selector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu_inicio" />
 
     <ImageView
         android:id="@+id/imageView7"

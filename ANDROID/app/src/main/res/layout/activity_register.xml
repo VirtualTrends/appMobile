@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondoblanco"
-    tools:context=".actividades.RegisterActivity">
+    tools:context="com.example.virtualtrendsmobile.actividades.RegisterActivity">
 
     <FrameLayout
         android:id="@+id/Frame"
@@ -103,7 +103,7 @@
         android:id="@+id/editTextNombreCompleto"
         android:layout_width="234dp"
         android:layout_height="41dp"
-        android:layout_marginStart="93dp"
+        android:layout_marginStart="83dp"
         android:layout_marginEnd="93dp"
         android:background="#F9F9F9"
         android:ems="10"
@@ -207,11 +207,11 @@
         android:id="@+id/btnNavSelector"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:background="#3B3D40"
+        android:background="#191B1D"
         app:itemIconTint="@drawable/selector"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/menu_selector" />
+        app:menu="@menu/menu_inicio" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

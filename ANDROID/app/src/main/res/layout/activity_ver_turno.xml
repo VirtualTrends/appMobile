@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondoblanco"
-    tools:context=".actividades.VerTurnoActivity">
+    tools:context="com.example.virtualtrendsmobile.actividades.VerTurnoActivity">
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -42,14 +42,14 @@
         android:id="@+id/btnNavSelector"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:background="#3B3D40"
+        android:background="#191B1D"
         app:itemIconTint="@drawable/selector"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:menu="@menu/menu_selector" >
+        app:menu="@menu/menu_inicio">
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 

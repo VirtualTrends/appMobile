@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.virtualtrendsmovile"
+    namespace = "com.example.virtualtrendsmobile"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.virtualtrendsmovile"
+        applicationId = "com.example.virtualtrendsmobile"
         minSdk = 30
         targetSdk = 33
         versionCode = 1

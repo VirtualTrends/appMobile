@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo"
-    tools:context=".actividades.SelectorActivity">
+    tools:context="com.example.virtualtrendsmobile.actividades.SelectorActivity">
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -37,14 +37,14 @@
         android:id="@+id/btnNavSelector"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:background="#3B3D40"
+        android:background="#191B1D"
         app:itemIconTint="@drawable/selector"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:menu="@menu/menu_selector" />
+        app:menu="@menu/menu_inicio" />
 
     <TextView
         android:id="@+id/tvPassword"
@@ -97,7 +97,7 @@
         android:layout_height="43dp"
         android:layout_marginStart="64dp"
         android:layout_marginEnd="64dp"
-        android:background="#BE1E1B1B"
+        android:background="#191B1D"
         android:onClick="launchSelectorActivity"
         android:text="@string/enter_button"
         android:textColor="#FFFFFF"

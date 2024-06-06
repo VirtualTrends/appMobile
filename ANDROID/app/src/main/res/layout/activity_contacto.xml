@@ -5,7 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#CC191B1D"
-    tools:context=".actividades.SelectorActivity">
+    tools:context="com.example.virtualtrendsmobile.actividades.SelectorActivity">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:context=".InicioActivity">
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#575757"
+            app:menu="@menu/menu" />
+    </androidx.drawerlayout.widget.DrawerLayout>
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/barraSup"
@@ -19,7 +40,7 @@
         android:id="@+id/textVEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="71dp"
+        android:layout_marginStart="70dp"
         android:layout_marginTop="25dp"
         android:text="E-mail"
         android:textColor="#F7F7F2"
@@ -41,13 +62,10 @@
         android:id="@+id/textVAsunto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="71dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="3dp"
+        android:layout_marginStart="70dp"
         android:text="Asunto"
         android:textColor="#F7F7F2"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/editAsunto"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editEmail" />
 
@@ -55,13 +73,11 @@
         android:id="@+id/editAsunto"
         android:layout_width="269dp"
         android:layout_height="45dp"
-        android:layout_marginTop="25dp"
         android:background="#FFFFFF"
         android:hint="Ingrese Asunto"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/textVAsunto"
+        tools:layout_editor_absoluteX="71dp" />
 
     <TextView
         android:id="@+id/textVMensaje"
@@ -164,37 +180,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/botonEnv" />
 
-    <androidx.drawerlayout.widget.DrawerLayout
-        android:id="@+id/drawer_layout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:context=".InicioActivity">
-
-        <com.google.android.material.navigation.NavigationView
-            android:id="@+id/nav_view"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="start"
-            android:background="#575757"
-            app:menu="@menu/menu" />
-    </androidx.drawerlayout.widget.DrawerLayout>
-
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/btnNavSelector"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:background="#3B3D40"
+        android:background="#191B1D"
         app:itemIconTint="@drawable/selector"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/menu_selector" />
+        app:menu="@menu/menu_inicio" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
