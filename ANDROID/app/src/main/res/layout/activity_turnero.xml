@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo"
-    tools:context=".actividades.SelectorActivity"
+    tools:context="com.example.virtualtrendsmobile.actividades.SelectorActivity"
     tools:ignore="ExtraText">
 
     <FrameLayout
@@ -39,7 +39,7 @@
             android:layout_gravity="center"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="10dp"
-            android:fontFamily="@font/josefin_sans"
+            android:fontFamily="sans-serif-medium"
             android:text="ELEGÍ TU FECHA "
             android:textAlignment="center"
             android:textSize="24sp" />
@@ -49,12 +49,12 @@
         android:id="@+id/btnNavSelector"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:background="#3B3D40"
+        android:background="#191B1D"
         app:itemIconTint="@drawable/selector"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/menu_selector" />
+        app:menu="@menu/menu_inicio" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -72,8 +72,9 @@
         android:id="@+id/calendarView"
         android:layout_width="312dp"
         android:layout_height="301dp"
-        android:background="#817A7A"
-        android:backgroundTint="#CDA19D9D"
+        android:background="#F4E6E6"
+        android:backgroundTint="#CDFAF9F9"
+        android:weekNumberColor="#009678"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

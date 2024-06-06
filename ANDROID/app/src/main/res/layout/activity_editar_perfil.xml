@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondoblanco"
-    tools:context=".actividades.EditarPerfilActivity">
+    tools:context="com.example.virtualtrendsmobile.actividades.EditarPerfilActivity">
 
     <FrameLayout
         android:id="@+id/Frame"
@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.289">
+        app:layout_constraintVertical_bias="0.265">
 
     </FrameLayout>
 
@@ -35,14 +35,12 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="46dp"
+        android:layout_height="17dp"
         android:layout_marginStart="83dp"
-        android:layout_marginEnd="83dp"
         android:text="correo"
         android:textColor="@color/white"
         android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input_direccion" />
 
@@ -50,18 +48,18 @@
         android:id="@+id/input_direccion"
         android:layout_width="228dp"
         android:layout_height="41dp"
+        android:layout_marginStart="83dp"
         android:background="@color/white"
         android:ems="10"
         android:inputType="text"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        tools:layout_editor_absoluteY="176dp" />
 
     <EditText
         android:id="@+id/input_correo"
         android:layout_width="228dp"
         android:layout_height="41dp"
-        android:layout_marginStart="93dp"
+        android:layout_marginStart="83dp"
         android:layout_marginEnd="93dp"
         android:background="@color/white"
         android:ems="10"
@@ -74,27 +72,23 @@
         android:id="@+id/input_nombre"
         android:layout_width="228dp"
         android:layout_height="41dp"
-        android:layout_marginStart="93dp"
-        android:layout_marginEnd="93dp"
+        android:layout_marginStart="83dp"
         android:background="@color/white"
         android:ems="10"
         android:inputType="text"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        tools:layout_editor_absoluteY="116dp" />
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="83dp"
-        android:layout_marginEnd="83dp"
+        android:layout_width="66dp"
+        android:layout_height="17dp"
         android:text="dirección"
         android:textColor="@color/white"
         android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_nombre" />
+        app:layout_constraintBottom_toTopOf="@+id/input_direccion"
+        app:layout_constraintTop_toBottomOf="@+id/input_nombre"
+        tools:layout_editor_absoluteX="83dp" />
 
     <TextView
         android:id="@+id/txtTitle"
@@ -115,31 +109,26 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="0dp"
+        android:layout_width="245dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="83dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="83dp"
         android:text="nombre completo"
         android:textAlignment="textStart"
         android:textColor="@color/white"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/input_nombre"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
 
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="62dp"
+        android:layout_height="17dp"
         android:layout_marginStart="83dp"
-        android:layout_marginEnd="83dp"
         android:text="password"
         android:textColor="@color/white"
         android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input_correo" />
 
@@ -148,12 +137,10 @@
         android:id="@+id/input_password"
         android:layout_width="228dp"
         android:layout_height="41dp"
-        android:layout_marginStart="93dp"
-        android:layout_marginEnd="93dp"
+        android:layout_marginStart="83dp"
         android:background="@color/white"
         android:ems="10"
         android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -174,9 +161,10 @@
         android:layout_marginStart="83dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="83dp"
-        android:background="#D3FDFBFB"
+        android:background="#191B1D"
         android:fontFamily="@font/archivo_regular"
         android:text="ENVIAR"
+        android:textColor="#F3EAEA"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -189,9 +177,10 @@
         android:layout_marginStart="83dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="83dp"
-        android:background="#D3FDFBFB"
+        android:background="#191B1D"
         android:fontFamily="@font/archivo_regular"
         android:text="VER TURNOS"
+        android:textColor="#FFFFFF"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -205,7 +194,7 @@
         android:layout_marginStart="83dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="83dp"
-        android:background="#D3613030"
+        android:background="#D3983B3B"
         android:fontFamily="@font/archivo_regular"
         android:text="ELIMINAR CUENTA"
         android:textColor="#fff"
@@ -219,11 +208,11 @@
         android:id="@+id/btnNavEditar"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:background="#3B3D40"
+        android:background="#191B1D"
         app:itemIconTint="@drawable/selector"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/menu_selector" />
+        app:menu="@menu/menu_inicio" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

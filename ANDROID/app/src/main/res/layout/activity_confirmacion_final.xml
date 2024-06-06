@@ -21,67 +21,37 @@
 
     </FrameLayout>
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/botonModificar"
-        android:layout_width="283dp"
-        android:layout_height="65dp"
-        android:backgroundTint="#191B1D"
-        android:fontFamily="@font/josefin_sans"
-        android:text="MODIFICAR"
-        android:textColor="#FFFFFF"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/btnNavSelector"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent">
-
-    </androidx.appcompat.widget.AppCompatButton>
-
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/btnNavSelector"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:background="#3B3D40"
+        android:background="#191B1D"
         app:itemIconTint="@drawable/selector"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:menu="@menu/menu_selector">
+        app:menu="@menu/menu_inicio">
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="105dp"
+        android:layout_width="141dp"
         android:layout_height="120dp"
-        android:layout_marginBottom="20dp"
         android:contentDescription="casi_todo"
-        app:layout_constraintBottom_toTopOf="@+id/botonModificar"
+        app:layout_constraintBottom_toTopOf="@+id/btnNavSelector"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/frameLayout4"
+        app:layout_constraintVertical_bias="0.93"
         app:srcCompat="@drawable/logo" />
-
-    <TextView
-        android:id="@+id/parrafo_explicativo2"
-        android:layout_width="223dp"
-        android:layout_height="48dp"
-        android:layout_marginBottom="20dp"
-        android:fontFamily="@font/archivo_regular"
-        android:text="DEBERÁS CONCURRIR 15 MINUTOS ANTES DEL TURNO"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textColorLink="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/imageView7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/frameLayout4"
-        android:layout_width="421dp"
-        android:layout_height="362dp"
+        android:layout_width="409dp"
+        android:layout_height="409dp"
         android:background="#D2F7F7F2"
         app:layout_constraintBottom_toBottomOf="@+id/btnNavSelector"
         app:layout_constraintEnd_toEndOf="parent"
@@ -172,20 +142,35 @@
             android:text="!"
             android:textColor="#D65E69"
             android:textSize="66sp"
+            app:layout_constraintBottom_toTopOf="@+id/parrafo_explicativo"
             app:layout_constraintEnd_toStartOf="@+id/indicaciones"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/indicaciones" />
+            app:layout_constraintTop_toTopOf="@+id/indicaciones"
+            app:layout_constraintVertical_bias="0.35000002" />
+
+        <TextView
+            android:id="@+id/parrafo_explicativo"
+            android:layout_width="223dp"
+            android:layout_height="48dp"
+            android:fontFamily="@font/archivo_regular"
+            android:text="DEBERÁS CONCURRIR 15 MINUTOS ANTES DEL TURNO"
+            android:textColor="@color/black"
+            android:textColorLink="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/indicaciones"
             android:layout_width="237dp"
             android:layout_height="99dp"
             android:text="RECORDÁ TRAER  UN CAMBIO DE ROPA QUE MARQUE EN DETALLE TODO TU CUERPO (Recomendamos ropa deportiva de lycra/spandex. Ninguna prenda puede ser holgada)."
+            app:layout_constraintBottom_toTopOf="@+id/parrafo_explicativo"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="262dp" />
+            app:layout_constraintStart_toStartOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+

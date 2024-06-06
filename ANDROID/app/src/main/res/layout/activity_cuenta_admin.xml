@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#CC191B1D"
-    tools:context=".actividades.admin.CuentaAdmin">
+    tools:context="com.example.virtualtrendsmobile.actividades.admin.CuentaAdmin">
 
     <View
         android:id="@+id/lineaInferior"
